@@ -17,15 +17,15 @@ function cameraStart() {
     //    console.error("Oops. Something is broken.", error);
     //});
 
-    document.getElementById("photo_upload").addEventListener("change",
-    function(){
-      console.log("got pic, will resize now:");
-      resizeBase64image(document.getElementById("photo_upload"),
-      function(base64img){
-        console.log("resized pic. will add it to src");
-        document.getElementById("addPhoto").src = base64img;
-      });
-    });
+    // document.getElementById("photo_upload").addEventListener("change",
+    // function(){
+    //   console.log("got pic, will resize now:");
+    //   resizeBase64image(document.getElementById("photo_upload"),
+    //   function(base64img){
+    //     console.log("resized pic. will add it to src");
+    //     document.getElementById("addPhoto").src = base64img;
+    //   });
+    // });
 
 
 }
